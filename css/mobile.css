@@ -1,0 +1,53 @@
+@media (max-width: 575px) {
+  /* thiet ke navbar  */
+
+  #nav-bar .menu {
+    display: block;
+    /* text-align: left; */
+  }
+
+  .nav-bar3 {
+    display: none;
+  }
+  [class*="nav-bar"] {
+    padding: 10px;
+    border: none;
+    justify-content: start;
+  }
+  /* mục tiêu + thông tin cá nhân */
+  .target-left,
+  .target-right {
+    margin: 30px 20px;
+  }
+  /* thông tin nghề nghiệp   */
+  #job-info .container {
+    columns: 1;
+  }
+  .experience {
+    height: 100%;
+    break-inside: avoid;
+    margin-bottom: 10px;
+  }
+  /* thiết kế chứng chỉ */
+  .chung-chi2 {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid #f76707;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  .row-2 {
+    border-left: none;
+  }
+  .ww-50 {
+    width: 100%;
+  }
+  /* thiết kế dự án */
+  .du-an1 {
+    flex-direction: column;
+  }
+  .du-an2 {
+    flex-direction: column;
+    margin: 5px 0 0 0;
+  }
+}
